@@ -1,0 +1,58 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    border: 1px solid white;
+    padding: 2% 4%;
+    margin: 10% auto auto;
+    height: 400px;
+    width: 500px !important;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 2px 1000px;
+    position: absolute;
+    right: 560px;
+    background: #ECF0F3;
+    box-shadow: 13px 13px 20px  #5555,
+                -13px 13px 20px #CBCED8
+}
+.container h4{
+    color: purple;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 580;
+    line-height: 2;
+}
+
+
+
+#interFace{
+    margin-top: 1% ;
+    height: 70px ;
+    width: 100%;
+    padding: 0 20px;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    border: none;
+    box-shadow: inset 3px 3px 6px   #CBCED8,
+                -3px -3px 6px #5555
+}
+.checkBtn{
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.rbtn{
+    position: absolute;
+    bottom: 10px;
+    right: 14px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    
+}                

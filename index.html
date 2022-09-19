@@ -5,18 +5,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
         <title>Number Divisibility Test</title>
     </head>
 
     <body>
         <div class="container">
-            <br><br><br>
-            <input class="col-12" type="text" name="" id="interFace2" placeholder="Enter any number"><br><br>
-            <button class="btn cbtn btn-outline-light btn-lg" onclick="checkNum()">Check</button>
-            <button class="btn rounded-pill rbtn col-3 btn-outline-light btn-sm " onclick="clr()">reload</button>
+            <br>
+            <h4>Number Divisibility Test</h4>
+            <br>
+            <input class="col-12 rounded" type="text" name="" id="interFace" placeholder="Enter any number"><br><br>
+            <button class="btn checkBtn btn-lg" onclick="checkNum()">Check</button>
+            <button class="btn btn-outline-danger rounded rbtn  btn-sm " onclick="clr()">reload</button>
 
         </div>
-        <script src="script.js"></script>
+        <!-- <script src="script.js"></script> -->
     </body>
 
 </html>
