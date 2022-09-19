@@ -1,5 +1,5 @@
-function checkNum() {
-    var userNum = interFace.value;
+const checkNum = () => {
+    let userNum = interFace.value;
     if (userNum == 0) {
         interFace.value = "Math Error!";
     } else if (userNum % 2 == userNum % 3 && userNum % 2 == userNum % 5) {
@@ -13,8 +13,8 @@ function checkNum() {
     } else {
         interFace.value = userNum + " is an odd number!!";
     }
-}
+};
 
-function clr() {
+const clr = () => {
     interFace.value = "";
-}
+};
