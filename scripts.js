@@ -13,7 +13,8 @@ function checkNum() {
     } else {
         interFace.value = userNum + " is an odd number!!";
     }
-    // else if((userNum == "")) {
-    //     interFace.value = "Enter something valid"
-    // }
+}
+
+function clr() {
+    interFace.value = "";
 }
